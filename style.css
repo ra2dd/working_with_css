@@ -1,0 +1,57 @@
+h1
+{
+    color:darkgray;
+}
+
+p,
+li
+{
+    color: green;
+}
+
+li
+{
+    list-style-type: square;
+}
+
+li.special,
+span.special
+{
+    color: orange;
+    font-weight: bold;
+}
+
+p em
+{
+    color: rgb(133, 58, 74);
+    font-weight: bold;
+}
+
+h1 + p
+{
+    font-size: 150%;
+}
+
+
+a:hover
+{
+    text-decoration: underline dotted;
+}
+
+article p span
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+
+h1 + p + p + article + ul
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+}
+
+p + article p
+{
+    background-color: black;
+    color: white;
+}
