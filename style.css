@@ -19,6 +19,7 @@ span.special
 {
     color: orange;
     font-weight: bold;
+    font-size: 140%;
 }
 
 p em
@@ -54,4 +55,24 @@ p + article p
 {
     background-color: black;
     color: white;
+}
+
+p.special
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+}
+
+.outer
+{
+    border: 10px solid black;
+}
+
+.box
+{
+    padding: 5px;
+    width: calc(60% + 125px);
+    background-image: linear-gradient(rgba(0, 0, 255, 0.6), rgba(255, 225, 0, 0.8));
+    color: white;
+    transform: rotate(0.99turn) scale(0.9, 1.1);
 }
