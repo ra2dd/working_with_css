@@ -76,3 +76,32 @@ p.special
     color: white;
     transform: rotate(0.99turn) scale(0.9, 1.1);
 }
+
+
+/*
+    Style the background of the document
+
+*/
+body
+{
+    background: rgb(231, 221, 221) url(bg-graphic.png) 10px 500px repeat-x fixed;
+}
+
+
+@media (max-width: 600px)
+{
+    body
+    {
+        background-color: blue;
+    }
+}
+
+/*
+    Style newer browsers while keeping style for old ones
+*/
+
+.outer
+{
+    width: 1000px;
+    width: calc(50%+200px);
+}
