@@ -5,49 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Formatting a biography</title>
+
+    <link rel="stylesheet" href="stylesheets/style-biography.css" />
     <style>
-      body {
-        background-color: #fff;
-        color: #333;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 1em;
-        margin: 0;
-      }
-
-      h1 {
-        color: pink;
-        font-size: 2em;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        border-bottom: 10px dotted purple;
-      }
-
-      h2 {
-        font-size: 1.5em;
-        font-style: italic;
-      }
-
-      .job-title {
-        color: #999999;
-        font-weight: bold;
-      }
-
-      a:link,
-      a:visited {
-        color: #fb6542;
-      }
-
-      a:hover {
-        text-decoration: none;
-        color: green;
-      }
-
-      ul
-      {
-        background-color: #eeeeee;
-        border: 5px solid purple;
-        padding: 2%;
-        padding-left: 4%;
-      }
+      
 
     </style>
   </head>
@@ -92,6 +53,50 @@
       </li>
 
     </ul>
+
+    <section>
+
+      <h3>
+        Some examples with attribute selectors.
+      </h3>
+
+      <a href="example.org" title="Link to example">
+        Link with title
+      </a>
+  
+      <a href="example.org">
+        Link with only href
+      </a>
+  
+      <a href="https://www.google.com">
+        link to Google
+      </a>
+
+    </section>
+
+    <article>
+      <h2>Heading</h2>
+      <p class="highlight">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam expedita natus recusandae eaque! Aliquid atque dignissimos qui dolore, asperiores quaerat, quas nam doloremque maxime obcaecati, a dolores dicta fugit libero!
+      </p>
+
+      <div class="box">
+        Div with class box
+      </div>
+
+      <div class="box special">
+        Div with class box & special
+      </div>
+
+      <div class="special">
+        Div with class special
+      </div>
+
+      <div class="special" id="last-div">
+        Div with class special and id last-div
+      </div>
+
+    </article>
 
   </body>
 
