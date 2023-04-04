@@ -1,0 +1,59 @@
+/*
+    Presence selectors
+*/
+li[class]
+{
+    font-size: 130%;
+}
+
+/*
+    Class is exacly element
+*/
+li[class="element"]
+{
+    background-color: yellow;
+}
+
+/*
+    checks beetween multiple classes in same declaration
+*/
+li[class~="element"]
+{
+    border: 1px solid black;
+}
+
+/*
+    remove case sensitivity
+*/
+li[class="sensitivity" i]
+{
+    background-color: lightcoral;
+}
+
+
+/*
+    Attribute selectors
+*/
+/*
+    starts with
+*/
+li[class^="selector"]
+{
+    font-size: 160%;
+}
+
+/*
+    ends with
+*/
+li[class$="selector"]
+{
+    background-color: yellow;
+}
+
+/*
+    contains
+*/
+li[class*="selector"]
+{
+    border: 1px solid gray;
+}
