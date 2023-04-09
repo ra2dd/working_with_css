@@ -1,0 +1,19 @@
+body
+{
+    font-family: 'Cabin';
+    font-size: 120%;;
+}
+
+[class^="grid"] > *
+{
+    background-color: rgb(49, 49, 217);
+    color: white;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.grid-1
+{
+    
+}
