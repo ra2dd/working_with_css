@@ -63,7 +63,7 @@ div
 /*
     images
 */
-p
+section > p
 {
     display: block;
     width: 400px;
@@ -74,7 +74,13 @@ p
 {
     background-image: url(../images/star.png);
     background-repeat: no-repeat;
-    background-position: right 100px;
+    /*
+        100% - horizontally
+        0% vertically
+        0% is 0%
+        100% is 100% of element width/height
+    */
+    background-position: 100% 0%;
 }
 
 .gradient
@@ -99,4 +105,28 @@ p
 .calculate
 {
     width: calc(30% + 100px);
+}
+
+
+/*
+    task 2
+*/
+h1
+{
+    font-size: 50px;
+}
+
+h2
+{
+    font-size: 2em;
+}
+
+p
+{
+    font-size: 16px;
+}
+
+h1 + p
+{
+    font-size: 120%;
 }
