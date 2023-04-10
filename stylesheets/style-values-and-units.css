@@ -1,0 +1,60 @@
+/*
+    ems and rems
+*/
+html
+{
+    font-family: "Cabin";
+    font-size: 120%;
+}
+
+.ems li
+{
+    font-size: 1.3em;
+}
+
+.rems li
+{
+    font-size: 1.3rem;
+}
+
+
+/*
+    [class^="px"] == .px
+    .box li selects all li inside a parent and children of the parent
+
+    precentages
+*/
+.wrapper
+{
+    width: 800px;
+    border: 5px solid rgb(50, 80, 155, 0.7);
+    background-color: white;
+}
+
+div
+{
+    background-color: orange;
+    border: 2px solid #000000;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.px
+{
+    width: 200px;
+}
+
+.percent
+{
+    width: 40%;
+    opacity: 60%;
+}
+
+
+/*
+    precentages list
+*/
+.percents li
+{
+    font-size: 80%;
+}
