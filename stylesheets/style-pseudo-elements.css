@@ -1,0 +1,26 @@
+html
+{
+    font-family: 'Poppins';
+}
+
+h1
+{
+    font-size: 2rem;
+}
+
+article p:last-child
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+article h1:only-child
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+li:only-child
+{
+    text-decoration: underline solid black;
+}
