@@ -1,0 +1,62 @@
+html
+{
+    font-family: "Poppins";
+}
+
+h1
+{
+    font-size: 2rem;
+}
+
+p
+{
+    font-size: 1.2rem;
+}
+
+article > p:first-child
+{
+    font-size: .8rem;
+}
+
+/*
+    Descendant combinator
+    Selects all elements and all children inside a parent 
+*/
+article li
+{
+    background-color: yellow;
+}
+
+
+/*
+    Child combinator
+    marches elements that are direct children of parent element
+*/
+article > ul > ul > li
+{
+    text-decoration: underline solid grey;
+}
+
+/*
+    Adjecent sibling combinator
+    selects only the first sibling of the element
+*/
+h1 + p
+{
+    color: orange;
+}
+
+/*
+    General sibling combinator
+    selects all siblings after the element
+    similar to article > p but selects elements only after the h1
+*/
+h1 ~ p
+{
+    border: solid 1px red;
+}
+
+ul > li[class="a"]
+{
+    font-size: 1.2rem;
+}
