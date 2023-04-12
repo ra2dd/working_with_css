@@ -1,0 +1,80 @@
+html
+{
+    font-family: 'Poppins';
+}
+
+h1
+{
+    font-size: 2rem;
+}
+
+
+/*
+    Pseudo classes
+*/
+article p:last-child
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+article h1:only-child
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+li:only-child
+{
+    text-decoration: underline solid black;
+}
+
+
+/*
+    User action pseudo classes
+*/
+article p:hover
+{
+    background-color: orange;
+}
+
+form input:focus
+{
+    border: 3px solid blue;
+}
+
+
+/*
+    Pseudo elements
+*/
+article p::first-line
+{
+    font-size: 1.5rem;
+    color: brown;
+}
+
+article p:first-child::first-letter
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+article + p::before
+{
+    content: "I added this text via css. ";
+}
+
+li::after
+{
+    content: "  ➥";
+}
+
+form::before
+{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+    border: 3px dotted black;
+}
