@@ -63,3 +63,24 @@ button
     font-size: 130%;
     line-height: 130%;
 }
+
+
+/*
+   Task 3 - flexbox 
+*/
+.parent 
+{
+    background-color: yellow;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.child 
+{
+    background-color: blue;
+    color: white;
+    padding: 1%;
+}
